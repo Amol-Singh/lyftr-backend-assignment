@@ -1,5 +1,5 @@
 # Lyftr AI Backend Assignment
-## Containerized Webhook API
+Containerized Webhook API
 
 # Features
 ## Webhook Ingestion
@@ -47,7 +47,7 @@
 
 # Project Structure
 
-![Project Structure](screenshots/File-Structure.jpg)
+![Project Structure](Screenshots/File-Structure.jpg)
 
 ## Setting Environment Variables
 ### Linux / macOS
@@ -74,30 +74,30 @@ http://localhost:8000
 Confirms the service is running and ready to accept requests.
 
 ### /health/live and /health/ready
-![Health Live and Ready](screenshots/Health-Live-And-Ready.jpg)
+![Health Live and Ready](Screenshots/Health-Live-And-Ready.jpg)
 
 ## Valid and Invalid Signature Test
-![Valid and Invalid Signature](screenshots/Signature.jpg)
+![Valid and Invalid Signature](Screenshots/Signature.jpg)
 
 ## Valid Signatures
-![Valid Webhook](screenshots/Webhook.jpg)
+![Valid Webhook](Screenshots/Webhook.jpg)
 
 ## Pagination
 
 #### Pagination – Page 1
-![Pagination Page 1](screenshots/Pagination-Page1.jpg)
+![Pagination Page 1](Screenshots/Pagination-Page1.jpg)
 
 #### Pagination – Page 2
-![Pagination Page 2](screenshots/Pagination-Page2.jpg)
+![Pagination Page 2](Screenshots/Pagination-Page2.jpg)
 
 ## /stats
-![Stats](screenshots/Stats.jpg)
+![Stats](Screenshots/Stats.jpg)
 
 ## /metrics
-![Metrics](screenshots/Metrics.jpg)
+![Metrics](Screenshots/Metrics.jpg)
 
 ## Logs
-![Logs](screenshots/Logs.jpg)
+![Logs](Screenshots/Logs.jpg)
 
 ## Stop the Service
 ```
