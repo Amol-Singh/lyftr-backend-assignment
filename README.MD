@@ -1,5 +1,5 @@
-#Lyftr AI Backend Assignment
-##Containerized Webhook API
+# Lyftr AI Backend Assignment
+## Containerized Webhook API
 
 # Features
 ## Webhook Ingestion
@@ -47,7 +47,7 @@
 
 # Project Structure
 
-![Project Sturcture](screenshots/File-Structure.jpg)
+![Project Structure](screenshots/File-Structure.jpg)
 
 ## Setting Environment Variables
 ### Linux / macOS
