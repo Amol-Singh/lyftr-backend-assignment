@@ -1,33 +1,33 @@
 # Lyftr AI Backend Assignment
-Containerized Webhook API
+This project is a containerized FastAPI-based backend that securely handles webhook events, prevents duplicate processing, and provides useful analytics along with health checks and metrics.
 
 # Features
-## Webhook Ingestion
+## 1. Webhook Ingestion
 
 - HMAC-SHA256 signature verification
 - Exactly-once message ingestion using idempotency
 - Graceful handling of duplicate messages
 
-## Message Retrieval
+## 2. Message Retrieval
 
 - Paginated listing with limit and offset
 - Filters: sender (from), timestamp (since), free-text search (q)
 - Deterministic ordering (ts ASC, message_id ASC)
 
-## Analytics
+## 3. Analytics
 
 - Total messages count
 - Unique sender count
 - Top senders by message volume
 - First and last message timestamps
 
-## Observability
+## 4. Observability
 
 - Liveness and readiness probes
 - Prometheus-style metrics
 - Structured JSON logging
 
-## Deployment
+## 5. Deployment
 
 - SQLite database stored in Docker volume
 - Fully containerized using Docker and Docker Compose
